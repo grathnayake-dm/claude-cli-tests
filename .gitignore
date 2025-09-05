@@ -131,3 +131,73 @@ venv.bak/
 *.db
 *.sqlite
 *.sqlite3
+
+# Web development specific
+# Live server files
+.vscode-live-server/
+live-server-files/
+
+# Webpack
+webpack-stats.json
+.webpack/
+
+# Security and sensitive files
+*.key
+*.pem
+*.crt
+*.cert
+*.p12
+*.pfx
+config.json
+secrets.json
+
+# Testing
+test-results/
+screenshots/
+videos/
+.playwright/
+cypress/videos/
+cypress/screenshots/
+
+# Documentation generators
+docs/_build/
+site/
+_site/
+
+# Cloud deployment
+.serverless/
+.netlify/
+.vercel/
+.firebase/
+.gcloud/
+
+# Local configuration
+local.json
+.local
+*.local.js
+*.local.json
+
+# Performance monitoring
+.lighthouse/
+bundle-analyzer-report.html
+speed-measure-plugin.json
+
+# Static site generators
+public/
+_site/
+.cache/
+.tmp/
+
+# Mobile development
+platforms/
+plugins/
+www/
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Miscellaneous
+*.orig
+*.rej
+.merge_file_*
